@@ -1,0 +1,342 @@
+﻿<Window x:Class="pain.MainWindow"
+		xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+		xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+		xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+		xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+		xmlns:local="clr-namespace:pain"
+		mc:Ignorable="d"
+		Title="pain"
+		WindowState="Maximized"
+		WindowStyle="None"
+		BorderThickness="0"
+		FocusVisualStyle="{x:Null}"
+		ResizeMode="NoResize">
+
+	<Window.Background>
+		<LinearGradientBrush>
+			<GradientStop Color="Yellow"
+						  Offset="0.0" />
+			<GradientStop Color="Red"
+						  Offset="0.25" />
+			<GradientStop Color="Blue"
+						  Offset="0.75" />
+			<GradientStop Color="LimeGreen"
+						  Offset="1.0" />
+		</LinearGradientBrush>
+	</Window.Background>
+	<Grid>
+		<Grid.RowDefinitions>
+			<RowDefinition></RowDefinition>
+			<RowDefinition></RowDefinition>
+			<RowDefinition></RowDefinition>
+			<RowDefinition></RowDefinition>
+			<RowDefinition></RowDefinition>
+			<RowDefinition></RowDefinition>
+		</Grid.RowDefinitions>
+		<Grid.ColumnDefinitions>
+			<ColumnDefinition Width="*"></ColumnDefinition>
+			<ColumnDefinition Width="*"></ColumnDefinition>
+		</Grid.ColumnDefinitions>
+
+		<TextBlock Grid.Row="0"
+				   Grid.Column="0"
+				   Grid.ColumnSpan="2"
+				   Text="ux design is my passion"
+				   FontFamily="Comic Sans MS"
+				   FontSize="50"
+				   HorizontalAlignment="Center"
+				   VerticalAlignment="Top"
+				   Foreground="#80FF2D">
+		</TextBlock>
+
+		<StackPanel Orientation="Horizontal"
+					Grid.Column="0"
+					Grid.Row="1"
+					VerticalAlignment="Top"
+					HorizontalAlignment="Left">
+			<TextBlock Text="First Name:"
+					   FontFamily="Times New Roman MS"
+					   FontSize="20"
+					   Margin="30,0,0,0"
+					   Width="130"></TextBlock>
+			<Button Content="_"
+					FontFamily="Times New Roman MS"
+					FontSize="20"
+					Margin="30,0,0,0"
+					Click="Button_Click"></Button>
+			<Button Content="_"
+					FontFamily="Times New Roman MS"
+					FontSize="20"
+					Margin="10,0,0,0"
+					Click="Button_Click"></Button>
+			<Button Content="_"
+					FontFamily="Times New Roman MS"
+					FontSize="20"
+					Margin="10,0,0,0"
+					Click="Button_Click"></Button>
+			<Button Content="_"
+					FontFamily="Times New Roman MS"
+					FontSize="20"
+					Margin="10,0,0,0"
+					Click="Button_Click"></Button>
+			<Button Content="_"
+					FontFamily="Times New Roman MS"
+					FontSize="20"
+					Margin="10,0,0,0"
+					Click="Button_Click"></Button>
+			<Button Content="_"
+					FontFamily="Times New Roman MS"
+					FontSize="20"
+					Margin="10,0,0,0"
+					Click="Button_Click"></Button>
+			<Button Content="_"
+					FontFamily="Times New Roman MS"
+					FontSize="20"
+					Margin="10,0,0,0"
+					Click="Button_Click"></Button>
+			<Button Content="_"
+					FontFamily="Times New Roman MS"
+					FontSize="20"
+					Margin="10,0,0,0"
+					Click="Button_Click"></Button>
+			<Button Content="_"
+					FontFamily="Times New Roman MS"
+					FontSize="20"
+					Margin="10,0,0,0"
+					Click="Button_Click"></Button>
+			<Button Content="_"
+					FontFamily="Times New Roman MS"
+					FontSize="20"
+					Margin="10,0,0,0"
+					Click="Button_Click"></Button>
+		</StackPanel>
+
+		<StackPanel Orientation="Horizontal"
+					Grid.Column="0"
+					Grid.Row="2"
+					VerticalAlignment="Top"
+					HorizontalAlignment="Left">
+			<TextBlock Text="Last Name:"
+					   FontFamily="Times New Roman MS"
+					   FontSize="20"
+					   Margin="30,0,0,0"
+					   Width="130"></TextBlock>
+			<Button Content="_"
+					FontFamily="Times New Roman MS"
+					FontSize="20"
+					Margin="30,0,0,0"
+					Click="Button_Click"></Button>
+			<Button Content="_"
+					FontFamily="Times New Roman MS"
+					FontSize="20"
+					Margin="10,0,0,0"
+					Click="Button_Click"></Button>
+			<Button Content="_"
+					FontFamily="Times New Roman MS"
+					FontSize="20"
+					Margin="10,0,0,0"
+					Click="Button_Click"></Button>
+			<Button Content="_"
+					FontFamily="Times New Roman MS"
+					FontSize="20"
+					Margin="10,0,0,0"
+					Click="Button_Click"></Button>
+			<Button Content="_"
+					FontFamily="Times New Roman MS"
+					FontSize="20"
+					Margin="10,0,0,0"
+					Click="Button_Click"></Button>
+			<Button Content="_"
+					FontFamily="Times New Roman MS"
+					FontSize="20"
+					Margin="10,0,0,0"
+					Click="Button_Click"></Button>
+			<Button Content="_"
+					FontFamily="Times New Roman MS"
+					FontSize="20"
+					Margin="10,0,0,0"
+					Click="Button_Click"></Button>
+			<Button Content="_"
+					FontFamily="Times New Roman MS"
+					FontSize="20"
+					Margin="10,0,0,0"
+					Click="Button_Click"></Button>
+			<Button Content="_"
+					FontFamily="Times New Roman MS"
+					FontSize="20"
+					Margin="10,0,0,0"
+					Click="Button_Click"></Button>
+			<Button Content="_"
+					FontFamily="Times New Roman MS"
+					FontSize="20"
+					Margin="10,0,0,0"
+					Click="Button_Click"></Button>
+		</StackPanel>
+
+		<StackPanel Orientation="Horizontal"
+					Grid.Column="0"
+					Grid.Row="3"
+					VerticalAlignment="Top"
+					HorizontalAlignment="Left">
+			<TextBlock Text="Birth Month:"
+					   FontFamily="Times New Roman MS"
+					   FontSize="20"
+					   Margin="30,0,0,0"
+					   Width="130"></TextBlock>
+			<Slider Minimum="1"
+					Maximum="1000000"
+					Value="1"
+					Width="100"
+					x:Name="monthSlider"
+					Margin="30,0,0,0"></Slider>
+			<TextBlock Text="{Binding ElementName=monthSlider, Path=Value, UpdateSourceTrigger=PropertyChanged}"
+					   FontFamily="Times New Roman MS"
+					   FontSize="20"
+					   Margin="30,0,0,0" />
+		</StackPanel>
+
+		<StackPanel Orientation="Horizontal"
+					Grid.Column="0"
+					Grid.Row="4"
+					VerticalAlignment="Top"
+					HorizontalAlignment="Left">
+			<TextBlock Text="Birth Day:"
+					   FontFamily="Times New Roman MS"
+					   FontSize="20"
+					   Margin="30,0,0,0"
+					   Width="130"></TextBlock>
+			<Slider Minimum="1"
+					Maximum="5000"
+					Value="1"
+					Width="100"
+					x:Name="daySlider"
+					Margin="30,0,0,0"></Slider>
+			<TextBlock Text="{Binding ElementName=daySlider, Path=Value, UpdateSourceTrigger=PropertyChanged}"
+					   FontFamily="Times New Roman MS"
+					   FontSize="20"
+					   Margin="30,0,0,0" />
+		</StackPanel>
+
+		<StackPanel Orientation="Horizontal"
+					Grid.Column="0"
+					Grid.Row="5"
+					VerticalAlignment="Top"
+					HorizontalAlignment="Left">
+			<TextBlock Text="Birth Year:"
+					   FontFamily="Times New Roman MS"
+					   FontSize="20"
+					   Margin="30,0,0,0"
+					   Width="130"></TextBlock>
+			<Slider Minimum="1"
+					Maximum="1000000"
+					Value="1"
+					Width="100"
+					x:Name="yearSlider"
+					Margin="30,0,0,0"></Slider>
+			<TextBlock Text="{Binding ElementName=yearSlider, Path=Value, UpdateSourceTrigger=PropertyChanged}"
+					   FontFamily="Times New Roman MS"
+					   FontSize="20"
+					   Margin="30,0,0,0" />
+		</StackPanel>
+
+		<StackPanel Orientation="Horizontal"
+					Grid.Column="1"
+					Grid.Row="1"
+					VerticalAlignment="Top"
+					HorizontalAlignment="Left">
+			<TextBlock Text="Phone Number:"
+					   FontFamily="Times New Roman MS"
+					   FontSize="20"
+					   Margin="30,0,0,0"
+					   Width="130"></TextBlock>
+			<Grid VerticalAlignment="Top"
+				  Margin="30,0,0,0">
+				<TextBox x:Name="txtNum"
+						 x:FieldModifier="private"
+						 Text="0"
+						 Width="150"
+						 IsReadOnly="True"
+						 TextChanged="txtNum_TextChanged"
+						 Margin="3,2,13,3" />
+				<Button x:Name="cmdUp"
+						x:FieldModifier="private"
+						FontSize="10"
+						Padding="0,-4,0,0"
+						Content="▲"
+						Width="10"
+						Click="cmdUp_Click"
+						Margin="130,2,1,13" />
+				<Button x:Name="cmdDown"
+						x:FieldModifier="private"
+						FontSize="10"
+						Padding="0,-4,0,0"
+						Content="▼"
+						Width="10"
+						Click="cmdDown_Click"
+						Margin="130,12,1,3" />
+			</Grid>
+		</StackPanel>
+
+		<StackPanel Orientation="Horizontal"
+					Grid.Column="1"
+					Grid.Row="2"
+					VerticalAlignment="Top"
+					HorizontalAlignment="Left">
+			<TextBlock Text="E-mail:"
+					   FontFamily="Times New Roman MS"
+					   FontSize="20"
+					   Margin="30,0,0,0"
+					   Width="130"></TextBlock>
+			<PasswordBox Margin="30,0,0,0"
+						 Width="130"
+						 x:Name="emailBox"></PasswordBox>
+			<TextBlock Text="@"
+					   FontFamily="Times New Roman MS"
+					   FontSize="20"
+					   Margin="10,0,0,0"></TextBlock>
+			<ComboBox x:Name="domainComboBox"
+					  Margin="10,0,0,0"
+					  IsTextSearchEnabled="False"
+					  Width="130"></ComboBox>
+		</StackPanel>
+
+		<StackPanel Orientation="Horizontal"
+					Grid.Column="1"
+					Grid.Row="3"
+					VerticalAlignment="Top"
+					HorizontalAlignment="Left">
+			<TextBlock Text="Address:"
+					   FontFamily="Times New Roman MS"
+					   FontSize="20"
+					   Margin="30,0,0,0"
+					   Width="130"></TextBlock>
+			<TextBox Margin="30,0,0,0"
+					 Width="200"
+					 x:Name="addressField"></TextBox>
+		</StackPanel>
+
+		<Grid Grid.Row="4"
+			  Grid.RowSpan="2"
+			  Grid.Column="1"
+			  HorizontalAlignment="Stretch"
+			  VerticalAlignment="Stretch">
+			<TextBlock x:Name="errorDisplay"
+					   Foreground="Red"
+					   FontFamily="Comic Sans MS"
+					   FontSize="20"
+					   Margin="30,0,0,0"
+					   VerticalAlignment="Stretch"
+					   HorizontalAlignment="Stretch"></TextBlock>
+		</Grid>
+
+		<Button Grid.Row="5"
+				Grid.ColumnSpan="2"
+				VerticalAlignment="Bottom"
+				HorizontalAlignment="Right"
+				FontFamily="Comic Sans MS"
+				FontSize="20"
+				Content="SUBMIT FORM"
+				Margin="0, 0, 30, 30"
+				Click="Button_Click_1"></Button>
+	</Grid>
+</Window>
