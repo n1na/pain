@@ -1,6 +1,8 @@
 # pain
 [![License: WTFPL](https://img.shields.io/badge/License-WTFPL-brightgreen.svg)](http://www.wtfpl.net/about/)
 
+[Download executable](https://github.com/n1na/pain/releases/tag/v1.0)
+
 hurt with me
 
 purposely coding chaos and pain
