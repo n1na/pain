@@ -9,7 +9,7 @@ purposely coding chaos and pain
 * useless
 * undocumented
 * inconsistent
-* unoraganized
+* unorganized
 
 ## Disclaimer
 I am not affiliated, associated, authorized, endorsed by, or in any way officially connected to [r/badUIbattles](https://www.reddit.com/r/badUIbattles/)
